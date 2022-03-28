@@ -1,7 +1,7 @@
 import { combineReducers, createStore } from "redux";
-import { } from "./";
- 
-const reducers = combineReducers({})
+import pokemonsReducer from "./pokemons"; 
+
+const reducers = combineReducers({pokemonsReducer})
 const store = createStore(reducers);
 
 export default store;
